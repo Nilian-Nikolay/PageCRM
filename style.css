@@ -77,10 +77,8 @@ body{
 }
 .m1 p{
     color: #E9DEFF;
-    box-shadow: 0px 0px 20px 0px #D795FF;
-
-    box-shadow: 0px 0px 4px 0px #D795FF;
-
+    text-shadow: 0px 0px 20px #D795FF;
+    text-shadow: 0px 0px 13px #D795FF;
 }
 
 .user{
@@ -223,7 +221,7 @@ body{
 }
 
 .main-text-1{
-    box-shadow: 0px 0px 10px 0px #B195FF;
+    text-shadow: 0px 0px 20px #B195FF;
 }
 
 .main-button{
@@ -1248,24 +1246,24 @@ margin-bottom: 110px; */
     transform: translateY(-100%);
     transform-origin: left center;
   }
-  input:checked ~ label 
+  input:checked ~ label
   span:nth-child(1){
     top: 0;
     left: 10px;
     transform: rotate(45deg);
   }
-  input:checked ~ label 
+  input:checked ~ label
   span:nth-child(2){
     width: 0;
     opacity: 0;
   }
-  input:checked ~ label 
+  input:checked ~ label
   span:nth-child(3){
     top: 25px;
     left: 10px;
     transform: rotate(-45deg);
   }
-  body label{
+label.menub{
     display: none;
 }
 
@@ -1356,7 +1354,7 @@ margin-bottom: 110px; */
         flex-direction: column;
         align-items: center;
     } */
-    body label{
+    label.menub{
         display: initial;
     }
     #menub:checked ~ .header .header-container .menu .m1,
